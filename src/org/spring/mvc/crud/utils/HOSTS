@@ -1,0 +1,73 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+# 102.54.94.97 rhino.acme.com # source server
+# 38.25.63.10 x.acme.com # x client host
+
+# localhost name resolution is handled within DNS itself.
+# 127.0.0.1 localhost
+# ::1 localhost
+127.0.0.1 func109.vfinance.cn
+
+#服务器
+10.65.213.11 oracle.dev.netfinworks.com
+10.65.213.15 svn.weihui.com svn.netfinworks.com
+10.65.213.16 nexus.netfinworks.com
+#117.144.207.119 api.iifee.com
+
+#访问测试环境hosts配置
+#10.65.1.16 funcpay.sina.com.cn
+#222.73.39.37 func2pay.sina.com.cn
+#10.65.1.14 funcmerchant.pay.sina.com.cn
+
+#标准版oracle基线
+10.65.213.12 base.vfinance.cn baseadmin.vfinance.cn baseintra.vfinance.cn basefcw.vfinance.cn ttserver.netfinworks.com
+
+#中远测试环境
+172.22.255.8 tprod.coscopay.com tintra.coscopay.com tadmin.coscopay.com tfcw.coscopay.com
+#中远生产环境
+#120.132.33.196 pay.ync365.com payintra.ync365.com payadmin.ync365.com
+#func70演示环境
+10.65.213.12 func70admin.vfinance.cn func70intra.vfinance.cn func70fcw.vfinance.cn func70.vfinance.cn
+#func83
+10.65.213.12 func83.vfinance.cn func83intra.vfinance.cn func83fcw.vfinance.cn func83admin.vfinance.cn
+#夸客金融
+172.16.250.172 tpay.quarkfinance.com tpayadmin.quarkfinance.com tpayintra.quarkfinance.com tpayfcw.quarkfinance.com
+#维金批量打款
+10.65.213.12 func93fcw.vfinance.cn func93.vfinance.cn func93admin.vfinance.cn func93intra.vfinance.cn
+#简版基线环境
+10.65.213.12 func48.vfinance.cn func48intra.vfinance.cn func48admin.vfinance.cn func48fcw.vfinance.cn
+#八戒
+10.65.213.12 func94.vfinance.cn func94intra.vfinance.cn func94admin.vfinance.cn func94fcw.vfinance.cn func94ttserver.vfinance.cn
+#夸客性能压测
+172.16.2.163 xntpay.quarkfinance.com xntpayadmin.quarkfinance.com xntpayintra.quarkfinance.com xntpayfcw.quarkfinance.com
+#夸客压测环境(内部)
+10.65.213.20 yace01intra.vfinance.cn yace01admin.vfinance.cn yace01fcw.vfinance.cn yace01.vfinance.cn
+
+
+#极鲜网测试环境
+#140.206.190.190 tpay.gfresh.com tintra.gfresh.com tadmin.gfresh.com tfcw.gfresh.com
+#猪八戒
+10.65.213.12 func94.vfinance.cn func94intra.vfinance.cn func94admin.vfinance.cn func94fcw.vfinance.cn func94ttserver.vfinance.cn
+#天津华维
+10.65.213.12 func98admin.vfinance.cn func98intra.vfinance.cn func98fcw.vfinance.cn func98.vfinance.cn func98ttserver.netfinworks.com
+
+#汇聚财开发
+10.65.213.12 func103admin.vfinance.cn func103intra.vfinance.cn func103.vfinance.cn func103fcw.vfinance.cn func103ttserver.netfinworks.com
+
+#普洛斯开发
+10.65.213.12 func109admin.vfinance.cn func109intra.vfinance.cn func109fcw.vfinance.cn func109.vfinance.cn func109ttserver.netfinworks.com
+#普洛斯生产环境
+accoad.glp168.com acco.glp168.com accoin.glp168.com chan.glp168.com ttserver.glp168.com 
